@@ -1,0 +1,143 @@
+/*
+Theme Name: Alleva WEB
+Template: kicker
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+@import url('css/footer.css');
+@import url('css/header.css');
+@import url('css/footer.css');
+@import url('css/menu.css');
+@import url('css/menu-mobile.css');
+@import url('css/dettaglio-articolo.css');
+@import url('css/categoria-articolo.css');
+@import url('css/archivio.css');
+@import url('css/homepage.css');
+
+
+
+/* font PR */
+@font-face{
+    font-family:Parmigiano Reggiano;
+    src: url(fonts/ParmigianoReggianoBold.8ca218a8.woff2) format("woff2"),
+    url(ParmigianoReggianoBold.0f674be7.woff) format("woff");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:Parmigiano Reggiano;
+    src: url(fonts/ParmigianoReggianoRegular.22bf5236.woff2) format("woff2"),
+    url(ParmigianoReggianoRegular.5eff25f1.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Parmigiano Reggiano;
+    src: url(fonts/ParmigianoReggianoLight.2a611f19.woff2) format("woff2"),
+    url(ParmigianoReggianoLight.86ad4574.woff) format("woff");
+    font-weight:300;
+    font-style:normal
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BaskervilleBE-Bold.f49c98f2.woff2) format("woff2"),
+    url(BaskervilleBE-Bold.9150c1df.woff) format("woff");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BertholdBaskerville-MedIta3.a8dc50a7.woff2) format("woff2"),
+    url(BertholdBaskerville-MedIta3.4386a544.woff) format("woff");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BaskervilleBE-Regular.461bef08.woff2) format("woff2"),
+    url(BaskervilleBE-Regular.7ef09c72.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BertholdBaskerville-Medium2.98e3b046.woff2) format("woff2"),
+    url(BertholdBaskerville-Medium2.03fd8a4c.woff) format("woff");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BertholdBaskerville-MedIta4.018788b0.woff2) format("woff2"),
+    url(BertholdBaskerville-MedIta4.914279cf.woff) format("woff");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BaskervilleBE-MediumItalic.083b1318.woff2) format("woff2"),
+    url(BaskervilleBE-MediumItalic.cdd829da.woff) format("woff");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BaskervilleBE-Medium.ff12fd4b.woff2) format("woff2"),
+    url(BaskervilleBE-Medium.2cf08fd3.woff) format("woff");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BertholdBaskerville-MedIta2.90afbe49.woff2) format("woff2"),
+    url(BertholdBaskerville-MedIta2.5cff4888.woff) format("woff");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BaskervilleBE-Italic.82e10ccc.woff2) format("woff2"),
+    url(BaskervilleBE-Italic.d4cf459c.woff) format("woff");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:Baskerville BE;
+    src: url(fonts/BertholdBaskerville-Italic2.a710ddcc.woff2) format("woff2"),
+    url(BertholdBaskerville-Italic2.c50cdc85.woff) format("woff");
+    font-weight:400;
+    font-style:italic
+}
+
+
+/*titoli in font pr */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Parmigiano Reggiano', sans-serif !important;
+}
+
+/* nasconde pdf dalla ricerca */
+.search-results .wp-block-file {
+    display: none;
+}
+
+/* input e cta newsletter */
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background: #ae8914;
+    border: 0;
+    color: #f2f2f2;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+input.wpcf7-form-control {
+    background: #fff;
+    color: #0A0203;
+}
+
+/* stile form */
+label {
+    font-family: 'Parmigiano Reggiano';
+}
